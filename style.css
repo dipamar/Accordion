@@ -1,0 +1,25 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.accordion:hover {
+    background-color: #bbb; 
+}
+.accordion {
+    background-color: #ccc;
+    color: #222;
+    cursor: pointer;
+    padding: 17px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    transition: 0.4s;
+}
+.para {
+    padding: 0 18px;
+    display: none;
+    background-color: grey;
+    overflow: hidden;
+}
